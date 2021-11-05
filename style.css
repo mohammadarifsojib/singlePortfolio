@@ -233,8 +233,8 @@ header nav ul li a:hover {
   font-size: 160px;
   text-transform: uppercase;
   line-height: 140px;
-  background: -webkit-gradient(linear, left top, right top, from(#A21AF0), to(#FF0072));
   background: -o-linear-gradient(left, #A21AF0, #FF0072);
+  background: -webkit-gradient(linear, left top, right top, from(#A21AF0), to(#FF0072));
   background: linear-gradient(to right, #A21AF0, #FF0072);
   -webkit-background-clip: text !important;
           background-clip: text !important;
@@ -896,9 +896,23 @@ header nav ul li a:hover {
 }
 #portfolio .portfolio-section .portfolio-filter-btn ul li {
   display: block;
-  text-align: ;
+}
+#portfolio .portfolio-section .portfolio-filter-btn ul .btn_active {
+  background: #F2058A;
+  color: #fff;
+}
+#portfolio .portfolio-section .portfolio-filter-btn ul .btn_active a {
+  color: #fff;
+  -webkit-transition: .3s all;
+  -o-transition: .3s all;
+  transition: .3s all;
+  padding: 10px;
+}
+#portfolio .portfolio-section .portfolio-filter-btn ul .btn_active a:hover {
+  color: #fff;
 }
 #portfolio .portfolio-section .portfolio-filter-btn ul li a {
+  display: block;
   font-size: 22px;
   color: #4d4d4d;
   font-weight: 600;
