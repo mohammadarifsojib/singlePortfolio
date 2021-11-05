@@ -22,6 +22,43 @@ jQuery(document).ready(function($){
 		selectedTagClass: 'current',
 		allTag: 'all'
 		});
+// Filterable portfolio link active
+	$('.btn_1 a').click(function(e){
+		e.preventDefault();
+		$('.flt_btn').removeClass('btn_active');
+		$('#portfolio .portfolio-section .portfolio-filter-btn ul .btn_1').addClass('btn_active');
+	});
+	$('.btn_2 a').click(function(e){
+		e.preventDefault();
+		$('.flt_btn').removeClass('btn_active');
+		$('.btn_2').addClass('btn_active');
+	});
+	$('.btn_3 a').click(function(e){
+		e.preventDefault();
+		$('.flt_btn').removeClass('btn_active');
+		$('.btn_3').addClass('btn_active');
+	});
+	$('.btn_4 a').click(function(e){
+		e.preventDefault();
+		$('.flt_btn').removeClass('btn_active');
+		$('.btn_4').addClass('btn_active');
+	});
+	$('.btn_5 a').click(function(e){
+		e.preventDefault();
+		$('.flt_btn').removeClass('btn_active');
+		$('.btn_5').addClass('btn_active');
+	});
+	$('.btn_6 a').click(function(e){
+		e.preventDefault();
+		$('.flt_btn').removeClass('btn_active');
+		$('.btn_6').addClass('btn_active');
+	});
+	$('.btn_7 a').click(function(e){
+		e.preventDefault();
+		$('.flt_btn').removeClass('btn_active');
+		$('.btn_7').addClass('btn_active');
+	});
+
 //Counter up
 	 $('.counter').counterUp({
 	        delay: 10,
