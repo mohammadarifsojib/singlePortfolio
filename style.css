@@ -909,6 +909,9 @@ header nav ul li a:hover {
   -o-transition: .3s all;
   transition: .3s all;
 }
+#portfolio .portfolio-section .portfolio-filter-btn ul li a:hover {
+  color: #F2058A;
+}
 #portfolio .portfolio-section #portfolio-list .single-item {
   max-width: 48%;
   width: 100%;
