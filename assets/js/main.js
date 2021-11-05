@@ -3,7 +3,7 @@ jQuery(document).ready(function($){
 	$('#client-carousel').slick({
 		  dots: true,
 		  infinite: true,
-		  autoplay: false,
+		  autoplay: true,
 		  autoplaySpeed: 3000,
 		  speed: 300,
 		  slidesToShow: 1,
